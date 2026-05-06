@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Version_schwarz" data-name="Version schwarz" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1101 1206.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_15);
+        opacity: .9;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path d="M173.54,12.89c-67.27,0-121.79,54.53-121.79,121.79v754.64c0,67.27,54.52,121.8,121.79,121.8h754.64c67.27,0,121.79-54.53,121.79-121.8V134.68c0-67.26-54.52-121.79-121.79-121.79H173.54Z"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_15" data-name="Unbenannter Verlauf 15" x1="0" y1="661.28" x2="1101" y2="661.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dcdcdc"/>
+      <stop offset=".08" stop-color="#c6c6c6"/>
+      <stop offset=".32" stop-color="#90908f"/>
+      <stop offset=".53" stop-color="#656564"/>
+      <stop offset=".72" stop-color="#474745"/>
+      <stop offset=".89" stop-color="#343432"/>
+      <stop offset="1" stop-color="#2e2e2c"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M173.54,12.89c-67.27,0-121.79,54.53-121.79,121.79v754.64c0,67.27,54.52,121.8,121.79,121.8h754.64c67.27,0,121.79-54.53,121.79-121.8V134.68c0-67.26-54.52-121.79-121.79-121.79H173.54Z"/>
+    <g class="cls-2">
+      <path id="Strasse" class="cls-1" d="M.92,853.39L1100.8,194.63v35.78L.92,1206.78v-353.39ZM.92,777.29L1100.8,178.34v-19.12L.92,580.26v197.04ZM0,528.11L1101,144.25v-9.46L0,397.46v130.65ZM0,362.75L1101,121.42v-5.64L0,280.02v82.73Z"/>
+    </g>
+  </g>
+  <path d="M928.18,1024.01H173.54c-74.26,0-134.68-60.42-134.68-134.69V134.68C38.86,60.42,99.28,0,173.54,0h754.64c74.26,0,134.68,60.42,134.68,134.68v754.64c0,74.27-60.42,134.69-134.68,134.69ZM173.54,25.78c-60.05,0-108.9,48.85-108.9,108.9v754.64c0,60.05,48.85,108.91,108.9,108.91h754.64c60.05,0,108.9-48.86,108.9-108.91V134.68c0-60.05-48.85-108.9-108.9-108.9H173.54Z"/>
+</svg>
