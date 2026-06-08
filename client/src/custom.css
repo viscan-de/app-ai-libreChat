@@ -1,18 +1,18 @@
 .light img.h-full[alt="LibreChat Logo"] {
-  content: url('assets/custom/logo.svg')
+  content: url('/assets/custom/logo.svg')
 }
 
 img.h-full[alt="LibreChat Logo"] {
-  content: url('assets/custom/logo.svg')
+  content: url('/assets/custom/logo.svg')
 }
 
 #messages-view {
-  background-image: url('assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
   background-size: 100% auto;
   background-color: #212121;
 }
 .light #messages-view {
-  background-image: url('assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
   background-color: #E0E4EE;
 }
 
@@ -26,7 +26,7 @@ img.h-full[alt="LibreChat Logo"] {
 }
 #messages-view .overflow-x-auto{
   background-color: #cd2127;
-  background-image: url('assets/custom/IGS_Logo_Reduziert_White_1024.svg');
+  background-image: url('/assets/custom/IGS_Logo_Reduziert_White_1024.svg');
   background-size: auto 70%;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,24 +62,33 @@ img.h-full[alt="LibreChat Logo"] {
   color: rgba(255, 255, 255, 0.7);
 }
 #root>div.relative {
-  background-image: url('assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
   background-size: 100% auto;
   background-color: #212121;
 }
 .light #root>div.relative {
-  background-image: url('assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
   background-color: #E0E4EE;
 }
 
 .light img.h-5.w-5[alt="OpenID Logo"] {
-    content: url('assets/custom/KI-Service_Icon_IGS_White_neu_1024x1024.svg')
+    content: url('/assets/custom/KI-Service_Icon_IGS_White_neu_1024x1024.svg')
 }
 
 .user-turn {
-  background-color: rgba(87, 87, 90, 0.4);
+  background-color: rgba(87, 87, 90, 0.8);
   border-radius: 0.5em;
   padding: 0.5em;
 }
 .light .user-turn {
-  background-color: rgba(248, 246, 246, 0.4);
+  background-color: rgba(248, 246, 246, 0.8);
+}
+
+.agent-turn {
+  background-color: rgba(87, 87, 90, 0.8);
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+.light .agent-turn {
+  background-color: rgba(248, 246, 246, 0.8);
 }

@@ -80,7 +80,7 @@ export default defineConfig(({ command }) => ({
           'assets/icon-*.png',
           'assets/apple-touch-icon*.png',
           'assets/maskable-icon.png',
-          'manifest.webmanifest',
+          'manifest.webmanifest'
         ],
         globIgnores: ['images/**/*', '**/*.map', 'index.html'],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
@@ -317,6 +317,7 @@ export default defineConfig(({ command }) => ({
       '~': path.join(__dirname, 'src/'),
       $fonts: path.resolve(__dirname, 'public/fonts'),
       'micromark-extension-math': 'micromark-extension-llm-math',
+      '/assets/custom': path.resolve(__dirname, 'public/assets/custom')
     },
   },
 }));
