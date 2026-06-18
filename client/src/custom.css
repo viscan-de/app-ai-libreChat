@@ -1,36 +1,36 @@
 .light img.h-full[alt="LibreChat Logo"] {
-  content: url('/assets/custom/logo.svg')
+  content: url('/assets/custom/GE-MZ-powered by viscan-dark_violet.svg');
 }
 
 img.h-full[alt="LibreChat Logo"] {
-  content: url('/assets/custom/logo.svg')
+  content: url('/assets/custom/GE-MZ-powered by viscan-white.svg');
 }
 
 #messages-view {
-  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/geoequipt_Background_DarkMode_2560x1960.png');
   background-size: 100% auto;
   background-color: #212121;
 }
 .light #messages-view {
-  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/geoequipt_Background_LightMode_2560x1960.png');
   background-color: #E0E4EE;
 }
 
-#messages-view::after {
-  content: "Image powered by bim-laeb.de";
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.7);
-}
 #messages-view .overflow-x-auto{
-  background-color: #cd2127;
-  background-image: url('/assets/custom/IGS_Logo_Reduziert_White_1024.svg');
+  background-color: #12006e;
+  background-image: url('/assets/custom/GE-MZ-white_1024.png');
   background-size: auto 70%;
   background-repeat: no-repeat;
   background-position: center;
+  color: rgba(255, 255, 255, 0.7);
 }
+
+#messages-view .overflow-x-auto svg,
+#messages-view .overflow-x-auto .text-left,
+#messages-view .overflow-x-auto .text-text-primary{
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
 #messages-view .hide-scrollbar.flex.w-full.items-center.justify-between.gap-2.overflow-x-auto button {
   background: transparent;
 }
@@ -62,17 +62,17 @@ img.h-full[alt="LibreChat Logo"] {
   color: rgba(255, 255, 255, 0.7);
 }
 #root>div.relative {
-  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/geoequipt_Background_DarkMode_2560x1960.png');
   background-size: 100% auto;
   background-color: #212121;
 }
 .light #root>div.relative {
-  background-image: url('/assets/custom/KI-Service_IGS_Hintergrund_neu_2560x1960.png');
+  background-image: url('/assets/custom/geoequipt_Background_LightMode_2560x1960.png');
   background-color: #E0E4EE;
 }
 
 .light img.h-5.w-5[alt="OpenID Logo"] {
-    content: url('/assets/custom/KI-Service_Icon_IGS_White_neu_1024x1024.svg')
+    content: url('/assets/custom/GE-MZ-powered by viscan-dark_violet.svg')
 }
 
 .user-turn {
